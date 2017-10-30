@@ -1,0 +1,14 @@
+{
+    "World":{
+        "x_max_coordinate": 10,
+        "y_max_coordinate": 10
+    },
+    "Events":{
+        "max_per_coord": 1,
+        "max_to_find": 5
+    },
+    "Tickets":{
+        "max_price": 1000,
+        "max_per_event": 10
+    }
+}

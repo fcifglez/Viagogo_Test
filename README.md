@@ -8,18 +8,41 @@
 * Each ticket has a non-zero price, expressed in USDollars.
 * The distance between two points should be computed as the Manhattan distance.
 
+## How to execute
+
+* You need to have Python 2.7 or bigger installed.
+
+* To execute the program, write in the terminal:
+```
+python main.py
+```
+
+*  Follow the instructions the terminal will give you.
+
+## How might you change your program if you needed to support multiple events at the
+same location?
+
+* Go to the 'config.json' file.
+* Change the value 'max_per_coord' for the number of events you want.
+
+## How would you change your program if you were working with a much larger world
+size?
+
+* Go to the 'config.json' file.
+* Change the values 'x_max_coordinate' and 'y_max_coordinate' for the size you want.
 
 ## Assumptions
 
-* World 	--->	Coordinates are integer values.
-			--->	Coordinates	has same range positive to negative in same axis.
+* World
+  * Coordinates are integer values.
+  * Coordinates	have the same range positive to negative in same axis.
 
 
-* Events 	--->	There is at least one event is the world coordinate is True.
-			--->	There is an event also if there is zero tickets.
+* Events
+  * There is an event also if there are zero tickets.
 
 
-
-* Tickets	--->	There are random number of tickets from 0 to MAX_TICKETS
-			--->	The Tickets prices are $1 to $MAX_TICKETS_PRICE. 
-			---> 	Each ticekts has to have an ID.
+* Tickets
+  * There are a random number of tickets from 0 to MAX_TICKETS
+  * The Tickets prices are $1 to $MAX_TICKETS_PRICE. 
+  * Each ticket has to have an ID.
