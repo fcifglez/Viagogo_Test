@@ -19,14 +19,12 @@ python main.py
 
 *  Follow the instructions the terminal will give you.
 
-## How might you change your program if you needed to support multiple events at the
-same location?
+## How might you change your program if you needed to support multiple events at the same location?
 
 * Go to the 'config.json' file.
 * Change the value 'max_per_coord' for the number of events you want.
 
-## How would you change your program if you were working with a much larger world
-size?
+## How would you change your program if you were working with a much larger world size?
 
 * Go to the 'config.json' file.
 * Change the values 'x_max_coordinate' and 'y_max_coordinate' for the size you want.
